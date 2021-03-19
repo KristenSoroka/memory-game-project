@@ -1,0 +1,57 @@
+
+
+body {
+    margin: 0;
+    background-color: rgb(252, 227, 231);
+}
+
+
+/* typography */
+
+.site-title {
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkolivegreen;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkolivegreen;
+    font-weight: 400;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkgrey;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color:darkolivegreen;
+}
+
+.current-page {
+    text-decoration: underline;
+}
+
+.current-page:hover,
+.current-page:focus{
+    color: darkgrey;
+}
+
+/* Navigation */
+
+
+
+
+
+
+
+
+
