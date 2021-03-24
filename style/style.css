@@ -20,13 +20,7 @@ h1 {
     margin: 0;
 }
 
-.title {
-    font-size: 2rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: darkolivegreen;
-    font-weight: 400;
-    margin: 0;
-}
+/* navigation typography */
 
 .nav-link {
     font-size: 1rem;
@@ -40,66 +34,59 @@ h1 {
 .nav-link:hover,
 .nav-link:focus {
     color:darkolivegreen;
+
 }
 
 .current-page {
     /* text-decoration: underline; doesn't look as nice*/
     border-bottom: 1px solid darkgrey; 
-    /* NOTE: to add more space between the border and words, add padding to the top and bottom of the .nav-link, this also makes it easier to click on when in mobil devices */
+    
+    /* NOTE: to add more space between the border and words, 
+    add padding to the top and bottom of the .nav-link, 
+    this also makes it easier to click on when in mobile devices */
 }
 
 .current-page:hover,
 .current-page:focus{
     color: darkgrey;
+    
 }
-
 
  /* 
     =============
-     Layout
+       Layout
     ============= 
  */
 
-
 header {
-    text-align: center;
+    
     background-color: rgb(252, 227, 231);
     padding: 2em 0;
-
-    /* display: flex;
-    justify-content: space-between; */
 }
 
 .container {
+    /* border: 1px solid magenta; */
     width: 90%;
     max-width: 900px;
     margin: 0 auto;
-
-    border: 1px solid magenta;
 }
 
 
-/* header {
-    margin: 1em;
+.container-nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
-} */
+}
 
 /* Navigation */
 
-/* nav {
+.nav-list {
     display: flex;
     flex-direction: column;
-    width: 60%;
-    justify-content: center;
-} */
+}
 
 nav ul {
-    /* border: 1px solid magenta; */
-     
     list-style: none;
     padding: 0;
     display: flex;
@@ -107,23 +94,16 @@ nav ul {
 }
 
 nav li {
-    /* border: 2px dotted orange; */
-    margin: 0 1em;
+    margin-left: 2em;
 }
 
-/* @media (min-width: 1000px){
-    header {
-        flex-direction: row;
-    }
-    nav {
-        flex-direction: row;
-        
-    }
-    .nav-link {
-        margin-right: 2em;
-        max-width: 50%;
-    }
-} */
+/* ===============
+    media queries
+   =============== */
+
+@media (min-width: 1000px) {
+
+}
 
 
 
