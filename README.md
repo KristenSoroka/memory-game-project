@@ -1,29 +1,20 @@
-# About the Project
+# About
 
-Memory is a game I loved playing as a child.  You match the parent animal with the baby animal.  You can only flip over two cards at a time.  If you flip two that match, then you collect those cards.  If you flip two that don't match, then you get turned over and it goes to the next player.  Whoever gets the most matching WINS!
-
-
-
-## left off
- left off at "a more complicated nav" in think responsively
+4/14: I was focusing too much on the responsive navigation and not the actual set up of the game and learning javascript.  Therefore, I removed the navigation entirely and I will create a new project that focuses soley on responsive navigations.  Eventually I can link the two, but for now I think this makes the most sense for learning purposed.
 
 
-## notes
+# Resources
 
-**Thank you to @scrimba and discord for helping me!**
+https://www.youtube.com/watch?v=tjyDOHzKN0w
 
-### Navigation notes
+I thought of this project before realizing Ania had a project tutorial already done so I will be following thru on that!
 
-    - nav links are traditionally done inside an unordered list.   Mostly for accessability reasons but there are discussions for setting it up as just links with no list elements. 
-    **need to read more on this**
 
-    - using the list element is the more complicated way but important to know bc it is SO common 
 
-    -using simple compound selectors to follow along with the tutorial but I will go back and switch in my class names at the end!
 
-    -list-style: none; and padding: 0; commonly used on ul elments to remove the bullet and the default padding placed to the left of the element for those bullet points
 
-    -instead of space-btween and width set on the ul element, going to 
+
+
 
 
 

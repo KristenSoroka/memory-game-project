@@ -20,38 +20,6 @@ h1 {
     margin: 0;
 }
 
-/* navigation typography */
-
-.nav-link {
-    font-size: 1rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: darkgrey;
-    text-transform: lowercase;
-    text-decoration: none;
-    padding: .25em 0; 
-}
-
-.nav-link:hover,
-.nav-link:focus {
-    color:darkolivegreen;
-
-}
-
-.current-page {
-    /* text-decoration: underline; doesn't look as nice*/
-    border-bottom: 1px solid darkgrey; 
-    
-    /* NOTE: to add more space between the border and words, 
-    add padding to the top and bottom of the .nav-link, 
-    this also makes it easier to click on when in mobile devices */
-}
-
-.current-page:hover,
-.current-page:focus{
-    color: darkgrey;
-    
-}
-
  /* 
     =============
        Layout
@@ -62,48 +30,12 @@ header {
     
     background-color: rgb(252, 227, 231);
     padding: 2em 0;
-}
-
-.container {
-    /* border: 1px solid magenta; */
-    width: 90%;
-    max-width: 900px;
-    margin: 0 auto;
+    text-align: center;
 }
 
 
-.container-nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
 
-/* Navigation */
 
-.nav-list {
-    display: flex;
-    flex-direction: column;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav li {
-    margin-left: 2em;
-}
-
-/* ===============
-    media queries
-   =============== */
-
-@media (min-width: 1000px) {
-
-}
 
 
 
